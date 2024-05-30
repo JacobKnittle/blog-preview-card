@@ -1,3 +1,83 @@
 body {
-	background-color: yellow;
+	background-color: hsl(47, 88%, 63%);
+	box-sizing: border-box;
+	font-family: 'Figtree', sans-serif;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.card {
+	background-color: white;
+	height: 522px;
+	width: 384px;
+	padding: 24px;
+	border-radius: 20px;
+	border: 1px solid black;
+	box-shadow: black 6px 6px;
+}
+
+.card-content {
+	width: 100%;
+}
+
+.article-img {
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.learning-container {
+	background-color: hsl(47, 88%, 63%);
+	color: black;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 800;
+	width: 82px;
+	height: 29px;
+	margin-top: 24px;
+	margin-bottom: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.date {
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 800;
+	margin-bottom: 12px;
+}
+
+p {
+	color: grey;
+	font-size: 16px;
+	line-height: 150%;
+	width: 90%;
+}
+
+.avatar-container {
+	display: flex;
+	align-items: center;
+	gap: 10.5px;
+	margin-top: 24px;
+}
+
+.avatar {
+	height: 32px;
+	width: 32px;
+}
+
+.author {
+	font-size: 14px;
+	font-weight: 800;
 }
